@@ -18,6 +18,5 @@ Completed:
 
 ![Video Walkthrough](tipDemo.gif)
  
-Note: to embed the gif file, just check your gif file into your repo and update the name of the file above.
 
  

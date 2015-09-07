@@ -14,6 +14,7 @@
 		37AC3D871B9D0EE30012F744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AC3D851B9D0EE30012F744 /* LaunchScreen.storyboard */; };
 		37AC3D921B9D0EE30012F744 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC3D911B9D0EE30012F744 /* tipsTests.swift */; };
 		37AC3D9D1B9D0EE30012F744 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC3D9C1B9D0EE30012F744 /* tipsUITests.swift */; };
+		37AC3DAB1B9D30F60012F744 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC3DAA1B9D30F60012F744 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		37AC3D981B9D0EE30012F744 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AC3D9C1B9D0EE30012F744 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		37AC3D9E1B9D0EE30012F744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37AC3DAA1B9D30F60012F744 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		37AC3D7B1B9D0EE30012F744 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				37AC3DAE1B9D317A0012F744 /* View Controllers */,
 				37AC3D7C1B9D0EE30012F744 /* AppDelegate.swift */,
 				37AC3D7E1B9D0EE30012F744 /* ViewController.swift */,
 				37AC3D801B9D0EE30012F744 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				37AC3D9E1B9D0EE30012F744 /* Info.plist */,
 			);
 			path = tipsUITests;
+			sourceTree = "<group>";
+		};
+		37AC3DAE1B9D317A0012F744 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37AC3DAA1B9D30F60012F744 /* UserViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AC3D7F1B9D0EE30012F744 /* ViewController.swift in Sources */,
+				37AC3DAB1B9D30F60012F744 /* UserViewController.swift in Sources */,
 				37AC3D7D1B9D0EE30012F744 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,7 +46,14 @@ class ViewController: UIViewController {
         
         var billAmount = Double(billField.text!)
         
-        var tip = billAmount! * tipPercentage
+        
+        var tip = 0.0
+        
+        if(percentageValue != 0.0) {
+            tip = billAmount! * percentageValue
+        } else {
+        tip = billAmount! * tipPercentage
+        }
         var total = billAmount! + tip;
         
 //        tipLabel.text="\(tip)"
@@ -57,8 +64,28 @@ class ViewController: UIViewController {
         
     }
     
-      
     
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view will appear")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did appear")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("view will disappear")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("view did disappear")
+    }
 
+    
  }
 

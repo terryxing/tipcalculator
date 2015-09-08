@@ -14,6 +14,8 @@ Completed:
 
 
 
+Video Demo:
+
 
 ![Video Walkthrough](tipDemo.gif)
  
